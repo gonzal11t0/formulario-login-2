@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to left, #d763e7, #200122); 
+    background: linear-gradient(to bottom, #d763e7, #200122); 
+    background: linear-gradient(to top, #d763e7, #200122); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    font-family:monospace;
+}
+.container{
+    background: linear-gradient(to left, #d763e7, #63016a); 
+    width: 80%;
+    border-radius: 15px;
+    overflow: hidden;
+    height: 90%;
+    display: flex;
+    align-items: center;
+}
+.container .login-container{
+    width: 500px;
+    margin: 0 auto;
+}
+.container .login-container > h2{
+    text-align: center;
+    font-size: 2.5rem;
+}
+.container .login-container > p  {
+    text-align: center;
+    color: rgb(53, 49, 45);
+}
+.container .login-container input.input{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: solid 3px #ccc;
+    border-radius:20px;
+}
+.container .login-container input.input:focus{
+    outline: solid 4px rgb(0, 153, 255);
+}
+.container .login-container .options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.container  a{
+    color: rgb(0, 153, 255);
+    text-decoration: none;
+}
+.container  a:hover{
+    text-decoration:underline;
+}
+.container .login-container .providers{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    margin-top: 30px;
+}
+.btn{
+    border: none;
+    padding: 15px 0;
+    width: 100%;
+    font-weight: bolder;
+    display: block;
+    border-radius:10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.btn.btn-login{
+    background-color: #444;
+    color: wheat;
+}
+.btn.btn-login:hover{
+    background-color: #000000;
+    color: wheat;
+}
+.btn.btn-facebook{
+    background-color: rgb(47, 101, 200);
+    color: wheat;
+}
+.btn.btn-facebook:hover{
+    background-color: rgb(1, 43, 122); 
+}
+.btn.btn-google{
+    background-color: white;
+    border: solid 2px #ccc;
+    color: rgb(0, 0, 0);
+}
+.btn.btn-google:hover{
+    background-color: rgb(243, 233, 233);
+}
+.btn.btn-twitter{
+    background-color: rgb(10, 168, 216);
+    color: wheat;
+}
+.btn.btn-twitter:hover{
+    background-color: rgb(37, 128, 156);
+}
+.container .welcome-screen-container{
+    background-image:url("https://www.galicia.ar/content/dam/galicia/banco-galicia/personas/canales/onb/ONBGallery/ilustraciones/Haberes-1.jpg");
+    height: 100%;
+    width:50%;
+}

@@ -1,0 +1,66 @@
+@media screen and (max-width:1300px) {
+    .container{
+        width: 95%;
+    }
+    .container .login-container{
+        width:400px;
+        margin: 0 auto;
+    }
+    .container .welcome-screen-container{
+        background-color: black;
+        height: 100%;
+        width:40%;
+    }
+}
+@media screen and (max-width:900px) {
+    .container{
+        width: 70%;
+    }
+    .container .login-container{
+        width: 350px;
+    }
+    .container .welcome-screen-container{
+    display: none;
+    }
+}
+@media screen and (max-width:530px) {
+    .container{
+        width:85%;
+    }
+    .container .login-container{
+        width:300px;
+    }
+    .container .welcome-screen-container{
+    display: none;
+    }
+}
+@media screen and (max-width:330px) {
+    body{
+        background-color:white;
+    }
+    .container{
+        width:100%;
+        height:100%;
+    }
+    .container .login-container{
+        width:230px;
+    }
+    .container .welcome-screen-container{
+    display: none;
+    }
+}
+@media screen and (min-width:170px) and (max-width:330px) {
+    body{
+        background-color:white;
+    }
+    .container{
+        width:100%;
+        height:100%;
+    }
+    .container .login-container{
+        width:170px;
+    }
+    .container .welcome-screen-container{
+    display: none;
+    }
+}
