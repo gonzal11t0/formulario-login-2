@@ -1,8 +1,8 @@
 body{
     margin: 0;
     padding: 0;
-    background: linear-gradient(to left, #d763e7, #200122); 
-    background: linear-gradient(to bottom, #d763e7, #200122); 
+    background: linear-gradient(to left, #473af6, #200122); 
+    background: linear-gradient(to bottom, #3883e6, #200122); 
     background: linear-gradient(to top, #d763e7, #200122); 
     display: flex;
     align-items: center;
@@ -12,13 +12,17 @@ body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .container{
-    background: linear-gradient(to left, #d763e7, #63016a); 
+    /*background: linear-gradient(to right, #4e4898, #200122); */
+    background: linear-gradient(to left, #0969bd, #63016a); 
     width: 80%;
     border-radius: 15px;
     overflow: hidden;
     height: 90%;
     display: flex;
     align-items: center;
+}
+span{
+    color:white;
 }
 .container .login-container{
     width: 500px;
@@ -27,10 +31,11 @@ body{
 .container .login-container > h2{
     text-align: center;
     font-size: 2.5rem;
+    color:white;
 }
 .container .login-container > p  {
     text-align: center;
-    color: rgb(53, 49, 45);
+    color:rgb(156, 154, 154);
 }
 .container .login-container input.input{
     display: block;
@@ -47,7 +52,6 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 .container  a{
     color: rgb(0, 153, 255);
@@ -75,7 +79,7 @@ body{
 }
 .btn.btn-login{
     background-color: #444;
-    color: wheat;
+    color:white;
 }
 .btn.btn-login:hover{
     background-color: #000000;
@@ -83,7 +87,7 @@ body{
 }
 .btn.btn-facebook{
     background-color: rgb(47, 101, 200);
-    color: wheat;
+    color:white;
 }
 .btn.btn-facebook:hover{
     background-color: rgb(1, 43, 122); 
